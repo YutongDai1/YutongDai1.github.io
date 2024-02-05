@@ -1,0 +1,50 @@
+.top-image {
+	
+	margin-top: 100px;
+
+    height: 300px; /* Adjust based on your preference */
+    width: 100%;
+    background-image: url('../img/cover.jpeg'); /* Update with the path to your image */
+    background-size: contain;
+    background-position: center;
+	background-repeat: no-repeat; 
+}
+
+#me {
+
+	margin: auto;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#me p {
+	color: #777;
+	font-size: 23px;
+	font-weight: 500;
+	line-height: 24px;
+	padding: 10px;
+}
+#me .background {
+	opacity: 0.9;
+	margin: 5% 10% 0 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#me .background-col {
+	flex-basis: 30%;
+	border-radius: 20px;
+	background: rgb(89, 180, 125);
+	margin-bottom: 5%;
+	padding: 20px 14px;
+	box-sizing: border-box;
+}
+#me .background-col h3 {
+	text-align: center;
+	font-weight: 600;
+	margin: 10px;
+	font-size: 20px;
+}
+#me .background-col:hover {
+	box-shadow: 0 0 20px 0px rgba(32, 60, 85, 0.5);
+}

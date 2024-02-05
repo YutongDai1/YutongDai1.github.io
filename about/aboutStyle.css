@@ -1,0 +1,123 @@
+/* About Section */
+/* #about .about {
+	flex-direction: column-reverse;
+	text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 20px;
+}
+#about .col-left {
+	width: 250px;
+	height: 360px;
+}
+#about .col-right {
+	width: 100%;
+}
+#about .col-right h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	margin-bottom: 10px;
+}
+#about .col-right p {
+	margin-bottom: 20px;
+}
+#about .col-right .cta {
+	color: black;
+	margin-bottom: 50px;
+	padding: 10px 20px;
+	font-size: 2rem;
+}
+#about .col-left .about-img {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	border: 10px solid white;
+}
+#about .col-left .about-img::after {
+	content: '';
+	position: absolute;
+	left: -33px;
+	top: 19px;
+	height: 98%;
+	width: 98%;
+	border: 7px solid crimson;
+	z-index: -1;
+} */
+/* End About Section */
+
+/* About Section */
+#about .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+
+#about .col-left, #about .col-right {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#about .col-left .about-img, #about .hobbies-interests, #about .blog-preview {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#about .col-left .about-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#about .col-right h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    margin-bottom: 10px;
+}
+
+#about .col-right p, #about .hobbies-interests p, #about .blog-preview p {
+    margin-bottom: 20px;
+}
+
+#about .read-more {
+    display: inline-block;
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#about .read-more:hover {
+    background-color: darkred;
+}
+
+/* Responsive adjustments */
+/* @media (min-width: 768px) {
+    #about .about {
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    #about .col-left, #about .col-right {
+        width: 50%;
+    }
+
+    #about .col-left {
+        padding-right: 20px;
+    }
+
+    #about .col-right {
+        padding-left: 20px;
+    }
+} */
+/* End About Section */

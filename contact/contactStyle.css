@@ -1,0 +1,55 @@
+/* Contact Section using Grid */
+
+#contact .contact {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+	text-align: center;
+	padding-top: 100px;
+	flex-direction: column;
+}
+
+#contact .contact-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust the minmax() for your preferred item width */
+    gap: 30px; /* Space between grid items */
+    width: 100%;
+    padding: 20px;
+}
+
+#contact .contact-item {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0; /* Removed margin to be controlled by grid gap */
+    box-shadow: 0px 0px 18px 0 #0000002c;
+    transition: 0.3s ease box-shadow;
+}
+
+#contact .contact-item:hover {
+    box-shadow: 0px 0px 5px 0 #0000002c;
+}
+
+#contact .icon {
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#contact .contact-info h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+#contact .contact-info h2 {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+/* End Contact Section using Grid */
+
+
+
+
