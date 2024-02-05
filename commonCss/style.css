@@ -1,5 +1,3 @@
-@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
-
 * {
 	padding: 0;
 	margin: 0;
@@ -7,7 +5,7 @@
 }
 html {
 	font-size: 10px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: sans-serif, Serif;
 	scroll-behavior: smooth;
 }
 a {
@@ -88,7 +86,7 @@ p {
 }
 
 .hamburger .bar {
-    background-color: white; /* or your chosen color */
+    background-color: white; 
     height: 2px;
     width: 30px;
     position: relative;
@@ -99,7 +97,7 @@ p {
 .hamburger .bar::after {
     content: '';
     position: absolute;
-    background-color: white; /* or your chosen color */
+    background-color: white; 
     height: 2px;
     width: 30px;
     transition: transform 0.3s ease;
@@ -116,18 +114,18 @@ p {
 
 /* Hide the navigation menu off-screen on smaller screens */
 .nav-list ul {
-    position: fixed; /* or absolute, depending on your layout needs */
+    position: fixed; 
     top: 0;
     left: 100%; /* Place it off the screen to the right */
-    width: 100vw; /* Full viewport width */
-    height: 100vh; /* Full viewport height */
-    background-color: rgb(31, 30, 30); /* Adjust based on your design */
+    width: 100vw; 
+    height: 100vh; 
+    background-color: rgb(31, 30, 30); 
     transition: transform 0.3s ease;
-    z-index: 100; /* Ensure it's above other content */
+    z-index: 100; 
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center; /* Center items vertically */
-    align-items: center; /* Center items horizontally */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 /* Control visibility with the checkbox */
@@ -210,7 +208,7 @@ p {
 }
 #header .nav-list ul li a.active {
     color: #4CAF50; /* Active link color, choose what stands out */
-    font-weight: bold; /* Make it bold */
+    font-weight: bold; 
 
 }
 
@@ -305,86 +303,6 @@ p {
 
 
 
-
-	/* Project */
-	#projects .project-item {
-		flex-direction: row;
-	}
-	#projects .project-item:nth-child(even) {
-		flex-direction: row-reverse;
-	}
-	#projects .project-item {
-		height: 400px;
-		margin: 0;
-		width: 100%;
-		border-radius: 0;
-	}
-	#projects .all-projects .project-info {
-		height: 100%;
-	}
-	#projects .all-projects .project-img {
-		height: 100%;
-	}
-	/* End Project */
-
-	/* About */
-	#about .about {
-		flex-direction: row;
-	}
-	#about .col-left {
-		width: 600px;
-		height: 400px;
-		padding-left: 60px;
-	}
-	#about .about .col-left .about-img::after {
-		left: -45px;
-		top: 34px;
-		height: 98%;
-		width: 98%;
-		border: 10px solid crimson;
-	}
-	#about .col-right {
-		text-align: left;
-		padding: 30px;
-	}
-	#about .col-right h1 {
-		text-align: left;
-	}
-	/* End About */
-
-	/* contact  */
-	/* #contact .contact {
-		flex-direction: column;
-		padding: 100px 0;
-		align-items: center;
-		justify-content: center;
-		min-width: 20vh;
-	}
-	#contact .contact-items {
-		width: 100%;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-evenly;
-		margin: 0;
-	}
-	#contact .contact-item {
-		width: 30%;
-		margin: 0;
-		flex-direction: row;
-	}
-	#contact .contact-item .icon {
-		height: 100px;
-		width: 100px;
-	}
-	#contact .contact-item .icon img {
-		object-fit: contain;
-	}
-	#contact .contact-item .contact-info {
-		width: 100%;
-		text-align: left;
-		padding-left: 20px;
-	} */
-	/* End contact  */
 }
 /* End Media Query For Tablet */
 
@@ -443,7 +361,7 @@ p {
 		display: block;
 	}
 
-	/* Additional adjustments for the navigation bar */
+
 	#header .nav-bar {
 		justify-content: space-between;
 	}
